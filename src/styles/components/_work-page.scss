@@ -1,0 +1,39 @@
+.work-page {
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  @media (max-width: 30rem) {
+    width: 90%;
+  }
+  img {
+    width: 100%;
+    height: 20rem;
+    transition: opacity .5s;
+    opacity: .5;
+    &:hover {
+      transition: opacity .5s;
+      opacity: 1;
+    }
+    @media (max-width: 30rem) {
+      height: 10rem;
+    }
+  }
+}
+
+.work-page__item {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: linear-gradient(30deg,rgba(21, 0, 255, 0.878) 0,$light-blue 100%);
+  color: $off-white;
+  h1 {
+    position: absolute;
+    pointer-events: none;
+    font-style: italic;
+  }
+  @media (max-width: 30rem) {
+    margin-bottom: 1rem;
+  }
+}

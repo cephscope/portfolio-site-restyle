@@ -1,0 +1,87 @@
+.work-detail {
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  @media (max-width: 30rem) {
+    width: 90%;
+  }
+  img {
+    max-width: 90rem;
+    height: 20rem;
+    @media (max-width: 30rem) {
+      height: 10rem;
+    }
+  }
+}
+.work-detail__item {
+  margin-bottom: 2rem;
+  background: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: $off-white;
+  width: 100%;
+  transition: transform .5s;
+  h1 {
+    position: absolute;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    opacity: 0;
+    @media (max-width: 30rem) {
+      display: none;
+    }
+  }
+  &:hover {
+    transition: transform .5s;
+    transform: skew(-15deg) scale(0.9);
+    @media (max-width: 30rem) {
+      transition: none;
+      transform: none;
+    }
+    h1 {
+      -webkit-transition: opacity .5s ease-in-out;
+      -moz-transition: opacity .5s ease-in-out;
+      -ms-transition: opacity .5s ease-in-out;
+      -o-transition: opacity .5s ease-in-out;
+      transition: opacity .5s ease-in-out;
+      opacity: 1;
+      @media (max-width: 30rem) {
+        transition: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transform: none;
+      }
+    }
+  }
+  @media (max-width: 30rem) {
+    margin-bottom: 1rem;
+  }
+}
+
+.section-link {
+  width: fit-content;
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+  transition: background-color .5s;
+  transition: color .5s;
+  transition: transform .5s;
+  transition: text-decoration .5s;
+  &:hover {
+      transition: background-color .5s;
+      transition: color .5s;
+      transition: transform .5s;
+      background: $light-blue;
+      font-style: normal;
+      transform: skew(-15deg);
+      color: $off-black;
+  }
+}
