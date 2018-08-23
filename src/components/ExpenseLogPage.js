@@ -7,10 +7,12 @@ const ExpenseLogPage = () => {
           <img src="./images/ftb.png" />
           <h1>give it a spin</h1>
         </a>
+        <h1>Expense Logger</h1>
         <p>An application for tracking your expenses.</p>
         <p>Expense data stored in a user-authenticated database.</p>
         <p>Quick search and filter functionality.</p>
-        <a href="https://github.com/cephscope/exepense-app" target="_blank">View project on GitHub</a>
+        <br />
+        <a className="section-link" href="https://github.com/cephscope/exepense-app" target="_blank">View project on GitHub</a>
     </section>
   );
 };

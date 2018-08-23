@@ -1,6 +1,14 @@
 ::-webkit-scrollbar { 
   display: none; 
 }
+::selection {
+  background: #9CDCFE;
+  // color: #1f2422;
+}
+::-moz-selection {
+  background: #9CDCFE;
+  // color: #1f2422;
+}
 body {
   margin: 0;
   background-color: #1f2422;
