@@ -19,13 +19,17 @@ const CalmCornerPage = () => {
         </a> : 
         <div href="https://calm.roycathey.org" target="_blank" className="work-detail__item">
           <img src="./images/cc.png" />
-          <h1>{isMobile ? `Calm Corner is currently desktop only` : `Take it for a spin →`}</h1>
+          <h1>Calm Corner is currently desktop only</h1>
         </div>
       }  
         <h1>Calm Corner</h1>
         <p>An ambient soundscape at the tip of your fingers.</p>
         <p>My goal with Calm Corner was to create a little oasis on the internet. Using the <a className="section-link" href="https://tonejs.github.io/" target="_blank">Tone.js</a> library, I designed sounds and sequences to be controlled by the user. Each layer can be played solo or alongside the others, inviting you to explore the soundscape at your leisure.</p>
-        <p>To maximise immersion, I created animations using the <a className="section-link" href="https://p5js.org/" target="_blank">P5.js</a> API and synced them to the audio. I wanted the interface to be as minimal as possible: just images and sound. It's designed so that there isn't a wrong move to make — just start clicking around enjoy what you create. <a className="section-link" href="https://calm.roycathey.org" target="_blank">Try it out!</a></p>
+        { 
+          !isMobile ? <p>To maximise immersion, I created animations using the <a className="section-link" href="https://p5js.org/" target="_blank">P5.js</a> API and synced them to the audio. I wanted the interface to be as minimal as possible: just images and sound. It's designed so that there isn't a wrong move to make — just start clicking around enjoy what you create. <a className="section-link" href="https://calm.roycathey.org" target="_blank">Try it out!</a></p>
+          : 
+          <p>To maximise immersion, I created animations using the <a className="section-link" href="https://p5js.org/" target="_blank">P5.js</a> API and synced them to the audio. I wanted the interface to be as minimal as possible: just images and sound. It's designed so that there isn't a wrong move to make — just start clicking around enjoy what you create.</p>
+        }
         <br />
         <a className="section-link" href="https://github.com/cephscope/noise" target="_blank">View project on GitHub</a>
     </section>
