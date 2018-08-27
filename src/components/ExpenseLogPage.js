@@ -5,7 +5,7 @@ const ExpenseLogPage = () => {
     <section className="work-detail">
         <a href="https://expense--app.herokuapp.com/" target="_blank" className="work-detail__item">
           <img src="./images/ftb.png" />
-          <h1>give it a spin</h1>
+          <h1>Take it for a spin →</h1>
         </a>
         <h1>Expense Logger</h1>
         <p>An application to record, search, and filter your expenses.</p>
