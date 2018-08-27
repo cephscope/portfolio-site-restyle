@@ -8,9 +8,9 @@ const ExpenseLogPage = () => {
           <h1>give it a spin</h1>
         </a>
         <h1>Expense Logger</h1>
-        <p>An application for tracking your expenses.</p>
-        <p>Expense data stored in a user-authenticated database.</p>
-        <p>Quick search and filter functionality.</p>
+        <p>An application to record, search, and filter your expenses.</p>
+        <p>Expense Logger authenticates each user, giving them access to a private database.</p>
+        <p>I used Redux (with middleware) for state management, so managing your expenses is quick and painless even when dispatching to the database. <a className="section-link" href="https://expense--app.herokuapp.com/" target="_blank">Try it out!</a></p>
         <br />
         <a className="section-link" href="https://github.com/cephscope/exepense-app" target="_blank">View project on GitHub</a>
     </section>
