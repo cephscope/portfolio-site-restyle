@@ -31,7 +31,7 @@ const CalmCornerPage = () => {
           <p>To maximise immersion, I created animations using the <a className="section-link" href="https://p5js.org/" target="_blank">P5.js</a> API and synced them to the audio. I wanted the interface to be as minimal as possible: just images and sound. It's designed so that there isn't a wrong move to make — just start clicking around enjoy what you create.</p>
         }
         <br />
-        <a className="section-link" href="https://github.com/cephscope/noise" target="_blank">View project on GitHub</a>
+        <a className="section-link" href="https://github.com/rycthy/noise" target="_blank">View project on GitHub</a>
     </section>
   );
 };
