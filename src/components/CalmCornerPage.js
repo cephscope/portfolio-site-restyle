@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 
 const CalmCornerPage = () => {
   let isMobile = false;
@@ -32,6 +33,7 @@ const CalmCornerPage = () => {
         }
         <br />
         <a className="section-link" href="https://github.com/rycthy/noise" target="_blank">View project on GitHub</a>
+        <Footer />
     </section>
   );
 };

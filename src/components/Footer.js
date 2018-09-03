@@ -1,10 +1,10 @@
 import React from 'react';
 import Nav from './Nav';
 
-const Header = () => (
-  <header>
+const Footer = () => (
+  <footer>
     <Nav />
-  </header>
+  </footer>
 );
 
-export default Header;
+export default Footer;

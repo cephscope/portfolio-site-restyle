@@ -1,8 +1,8 @@
-header {
+footer {
   display: flex;
   // visibility: hidden;
-  flex-direction: row;
-  // margin: 2rem;
+  // flex-direction: row;
+  margin: 2rem;
   align-items: center;
   min-height: 8rem;
   flex: auto;
@@ -16,9 +16,8 @@ header {
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   width: 100%;
-  position: fixed;
   @media (max-width: 30rem) {
     margin: 1rem;
   }
