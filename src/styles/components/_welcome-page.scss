@@ -4,6 +4,27 @@
   }
 }
 #welcome {
-  max-width: 30rem;
+  max-width: 60rem;
+  height: auto;
   font-size: x-large;
+  text-align: center;
+  border: solid $off-white;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  h1 {
+    @media (max-width: 30rem) {
+      font-size: xx-large;
+    }
+  }
+  @media (max-width: 30rem) {
+    border: none;
+    padding: 0;
+  }
+}
+#contact-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
