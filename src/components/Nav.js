@@ -10,7 +10,3 @@ const Nav = () => (
 );
 
 export default Nav;
-
-// <NavLink className="nav__link" activeClassName="nav__link__active" to="/projects" exact={true}>
-//             <h2>Projects</h2>
-//         </NavLink>

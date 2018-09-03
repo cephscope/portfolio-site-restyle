@@ -1,7 +1,5 @@
 footer {
   display: flex;
-  // visibility: hidden;
-  // flex-direction: row;
   margin: 2rem;
   align-items: center;
   min-height: 8rem;
@@ -21,13 +19,9 @@ footer {
   @media (max-width: 30rem) {
     margin: 1rem;
   }
-  @media (min-width: 120rem) {
-    // justify-content: ;
-  }
 }
 .nav__link {
   display: flex;
-  // flex-direction: column;
   color: inherit;
   text-decoration: none;
   font-weight: bold;
@@ -35,16 +29,6 @@ footer {
   transition: background-color .5s;
   transition: color .5s;
   transition: transform .5s;
-  // img {
-  //   height: 40px;
-  //   width: auto;
-  //   @media (min-width: 120rem) {
-  //     height: 60px;
-  //   }
-  //   @media (min-width: 150rem) {
-  //     height: 80px;
-  //   }
-  // }
   &:hover {
     h2 {
       transition: background-color .5s;
