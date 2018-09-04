@@ -1,7 +1,11 @@
 .work-page {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-gap: 10px;
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  margin-bottom: 2rem;
   h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
@@ -25,7 +29,6 @@
 }
 
 .work-page__item {
-  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,8 +39,11 @@
     position: absolute;
     pointer-events: none;
     font-style: italic;
+    @media (max-width: 30rem) {
+      font-size: medium;
+    }
   }
-  @media (max-width: 30rem) {
-    margin-bottom: 1rem;
-  }
+}
+#title {
+  background: none;
 }

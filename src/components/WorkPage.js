@@ -3,7 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 const WorkPage = () => (
     <section className="work-page">
-        <h3>Projects:</h3>
+        <div className="work-page__item" id="title">
+            <h1>Projects</h1>
+        </div>
         <NavLink className="work-page__item" to="/droidify" exact={true}>
             <img src="./images/sophia.png" />
             <h1>Droidify</h1>

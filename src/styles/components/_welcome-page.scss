@@ -56,6 +56,9 @@
   }
   p {
     font-size: medium;
+    @media (max-width: 30rem) {
+      font-size: small;
+    }
   }
 }
 
