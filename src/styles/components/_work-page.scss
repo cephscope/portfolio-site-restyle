@@ -36,9 +36,12 @@
   text-decoration: none;
   background: linear-gradient(30deg,rgba(21, 0, 255, 0.878) 0,$light-blue 100%);
   color: $off-white;
+  
   img {
     height: 100%;
-    
+    box-shadow: 3px 3px 3px #111;
+    -moz-box-shadow: 3px 3px 3px #111;
+    box-shadow: 3px 3px 3px #111;
   }
   h1 {
     position: absolute;
