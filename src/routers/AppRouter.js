@@ -6,9 +6,11 @@ import Welcome from '../components/Welcome';
 import CalmCornerPage from '../components/CalmCornerPage';
 import ExpenseLogPage from '../components/ExpenseLogPage';
 import Droidify from '../components/DroidifyPage';
+import ScrollToTop from '../components/ScrollToTop';
 
 const AppRouter = () => (
   <BrowserRouter>
+  <ScrollToTop>
     <div id="container">
       <main>
         <Switch>
@@ -21,6 +23,7 @@ const AppRouter = () => (
         </Switch>
       </main>
     </div>
+    </ScrollToTop>
   </BrowserRouter>
 );
 
