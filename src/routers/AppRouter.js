@@ -15,7 +15,6 @@ const AppRouter = () => (
       <main>
         <Switch>
           <Route path="/" exact={true} component={Welcome} />
-          <Route path="/projects" component={WorkPage} />
           <Route path="/droidify" component={Droidify} />
           <Route path="/calm-corner" component={CalmCornerPage} />
           <Route path="/expenselog" component={ExpenseLogPage} />
