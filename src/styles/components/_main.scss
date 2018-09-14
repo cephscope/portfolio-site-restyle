@@ -20,7 +20,7 @@ section {
 
 .section-link {
   width: fit-content;
-  color: inherit;
+  color: white;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -34,9 +34,9 @@ section {
       transition: background-color .5s;
       transition: color .5s;
       transition: transform .5s;
-      background: $light-blue;
+      background: $blue;
       font-style: normal;
       transform: skew(-15deg);
-      color: $off-black;
+      color: $background-color;
   }
 }

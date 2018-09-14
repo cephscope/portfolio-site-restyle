@@ -10,6 +10,7 @@
   // flex: 1;
   h1 {
     font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
     @media (max-width: 30rem) {
       font-size: xx-large;
     }
@@ -20,6 +21,7 @@
   }
   h3 {
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
   }
   @media (max-width: 30rem) {
     padding: 0;
@@ -46,7 +48,7 @@
 
 #toolset {
   i {
-    color: $light-blue;
+    color: $blue;
     font-size: 48px;
   }
   p {

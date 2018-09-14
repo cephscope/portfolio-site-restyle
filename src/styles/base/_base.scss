@@ -2,15 +2,17 @@
   display: none; 
 }
 ::selection {
-  background: #9CDCFE;
+  background: $blue;//#9CDCFE;
 }
 ::-moz-selection {
-  background: #9CDCFE;
+  background: $blue;//#9CDCFE;
 }
 body {
   margin: 0;
-  background-color: $off-black;
-  color: $off-white;
-  font-family: 'Courier New', Courier, monospace;
+  background-color: $background-color;
+  color: $dim;
+  // font-family: 'Courier New', Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
+  // font-weight: 700;
   overflow-x: hidden;
 }
