@@ -6,7 +6,7 @@ const Welcome = () => {
     <div>
       <section>
         <div id="welcome">
-          <h1>Hi, I'm Roy Cathey</h1>
+          <h1>ROY CATHEY</h1>
           <p>I'm a front-end developer living in New York City. I like building web applications that people actually enjoy using.</p>
           <div className="portrait">
             <img src="./images/mesmall.jpeg" />

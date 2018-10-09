@@ -1,0 +1,28 @@
+.frame-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10px;
+  background: #eee;
+}
+.frame-right {
+  position: fixed;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background: #eee;
+}
+.frame-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+  background: #eee;
+}
+.frame-left {
+  position: fixed;
+  left: 0;
+  width: 10px;
+  height: 100%;
+  background: #eee;
+}

@@ -7,16 +7,12 @@
 ::-moz-selection {
   background: #9CDCFE;
 }
-html {
-  border: 10px solid #eee;
-  // width: 100vw;
-  // height: 100vh;
-  overflow: scroll;
-}
+
 body {
   margin: 0;
   background-color: $bg;
   color: $off-black;
+  text-rendering: geometricPrecision;
   font-family: Menlo, Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }

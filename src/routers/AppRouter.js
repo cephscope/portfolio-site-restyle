@@ -7,10 +7,12 @@ import CalmCornerPage from '../components/CalmCornerPage';
 import ExpenseLogPage from '../components/ExpenseLogPage';
 import Droidify from '../components/DroidifyPage';
 import ScrollToTop from '../components/ScrollToTop';
+import Frame from '../components/Frame';
 
 const AppRouter = () => (
   <BrowserRouter>
   <ScrollToTop>
+  <Frame />
     <div id="container">
       <main>
         <Switch>

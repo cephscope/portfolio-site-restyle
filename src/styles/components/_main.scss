@@ -1,12 +1,13 @@
 main {
   display: flex;
-  justify-content: center;
-  overflow-x: hidden;
+  // justify-content: center;
+  // overflow-x: hidden;
+  // overflow-y: scroll;
 }
 section {
   display: flex;
   justify-content: center;
-  max-width: 60rem;
+  // max-width: 60rem;
   flex-direction: column;
   @media (max-width: 30rem) {
     flex-direction: column;
