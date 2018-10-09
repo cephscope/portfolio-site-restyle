@@ -1,6 +1,6 @@
 footer {
   display: flex;
-  margin: 2rem;
+  margin-top: 2rem;
   align-items: center;
   min-height: 8rem;
   flex: auto;
@@ -23,25 +23,25 @@ footer {
 .nav__link {
   display: flex;
   color: $off-white;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
   font-style: italic;
-  transition: background-color .5s;
-  transition: color .5s;
-  transition: transform .5s;
-  &:hover {
-    h2 {
-      transition: background-color .5s;
-      transition: color .5s;
-      transition: transform .5s;
-      background: $light-blue;
-      font-style: normal;
-      transform: skew(-15deg);
-      color: $background-color;
-    }
-    transition: text-decoration .5s;
-    text-decoration: none;
-  }
+  // transition: background-color .5s;
+  // transition: color .5s;
+  // transition: transform .5s;
+  // &:hover {
+  //   h2 {
+  //     transition: background-color .5s;
+  //     transition: color .5s;
+  //     transition: transform .5s;
+  //     background: $light-blue;
+  //     font-style: normal;
+  //     transform: skew(-15deg);
+  //     color: $background-color;
+  //   }
+  //   transition: text-decoration .5s;
+  //   text-decoration: none;
+  // }
 }
 .nav__link__active {
   h2 {
