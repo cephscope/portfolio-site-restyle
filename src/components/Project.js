@@ -17,6 +17,7 @@ export default (props) => {
       <div className="project-info">
         <h1>{props.title}</h1>
         <p>{props.copy}</p>
+        <p className="project-tools">Tools used: {props.tools}</p>
         <div className="project-links">
           <a className={`project-link ${(props.title === 'Calm Corner' && isMobile) ? 'hide' : ''}`} target="_blank" href={props.demoLink}>Live site</a>
           <a className="project-link" target="_blank" href={props.gitHubLink}>GitHub repo</a>
