@@ -4,29 +4,44 @@
   min-height: 100vh;
   font-size: x-large;
   text-align: left;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  @media (max-width: 800px) {
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    min-height: 100%;
+    padding: 0;
+  }
+  @media (max-width: 1000px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  @media (min-width: 1600px) {
+    min-height: 100%;
+  }
+  @media (min-width: 3000px) {
+    font-size: xx-large;
+  }
   p {
     margin-bottom: 2.5rem;
     margin-top: 0;
   }
   h1 {
-    // font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif", HelveticaNeue-CondensedBlack;
     color: $off-black;
     margin-top: 0;
     margin-bottom: 2.5rem;
-    @media (max-width: 30rem) {
+    @media (max-width: 800px) {
       font-size: xx-large;
     }
   }
   h2 {
-    // font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif", HelveticaNeue-CondensedBlack;
     margin:0;
     margin-top: 2rem;
     padding: 0;
     color: palevioletred;
     width: 15rem;
-    @media (max-width: 30rem) {
+    @media (max-width: 800px) {
       font-size: large;
       width: auto;
       margin-top: 2rem;
@@ -37,29 +52,7 @@
     width: auto;
   }
   h3 {
-    // font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif", HelveticaNeue-CondensedBlack;
     color: $off-black;
-  }
-  @media (max-width: 30rem) {
-    padding: 0;
-    font-size: large;
-    align-items: center;
-    text-align: center;
-    min-height: 100%;
-  }
-  @media (max-width: 1000px) {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  @media (min-width: 1600px) {
-    min-height: 100%;
-    // padding-left: 10rem;
-    // padding-right: 10rem;
-  }
-  @media (min-width: 2000px) {
-    min-height: 100%;
-    // padding-left: 15rem;
-    // padding-right: 15rem;
   }
 }
 .portrait {
@@ -80,8 +73,6 @@
 }
 .row-list {
   display: flex;
-  // text-align: left;
-  // justify-content: left;
   margin-bottom: 2rem;
   @media (max-width: 30rem) {
     justify-content: space-between;
