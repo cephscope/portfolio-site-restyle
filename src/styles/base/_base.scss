@@ -13,6 +13,9 @@ body {
   background-color: $bg;
   color: $off-black;
   text-rendering: geometricPrecision;
-  font-family: Menlo, Arial, Helvetica, sans-serif;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   overflow-x: hidden;
+}
+h1, h2, h3 {
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif", HelveticaNeue-CondensedBlack;
 }
