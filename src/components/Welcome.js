@@ -1,5 +1,6 @@
 import React from 'react';
 import WorkPage from './WorkPage';
+import { Projects } from './Projects';
 
 const Welcome = () => {
   return (
@@ -22,6 +23,7 @@ const Welcome = () => {
           <h1 id="projects-header">PROJECTS</h1>
         </div>
       </section>
+      <Projects />
       <WorkPage />
     </div>
   );
