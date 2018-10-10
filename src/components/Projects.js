@@ -33,7 +33,7 @@ export class Projects extends React.Component {
   }
   render() {
     return (
-      <section className="projects">
+      <section>
         {
           this.state.projects.map((e) => {
             return <Project

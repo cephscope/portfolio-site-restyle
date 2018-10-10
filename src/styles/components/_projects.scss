@@ -1,0 +1,23 @@
+// .projects-grid {
+//   display: grid;
+//   grid-template-columns: repeat(2, 50%);
+//   grid-gap: 10px;
+//   width: 100%;
+//   padding-bottom: 2rem;
+//   height: 95vh;
+// }
+
+.project {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.project-image {
+  width: 50%;
+  img {
+    width: 100%;
+  }
+}
+.project-info {
+  width: 50%;
+}
