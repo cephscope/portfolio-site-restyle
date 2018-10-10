@@ -7,6 +7,7 @@
   height: 95vh;
   @media (max-width: 30rem) {
     width: 90%;
+    height: auto;
     display: flex;
     justify-content: space-between;
   }
@@ -34,11 +35,13 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  min-height: 20rem;
   background: linear-gradient(30deg,rgba(21, 0, 255, 0.878) 0,$light-blue 100%);
   color: $off-white;
   
   img {
     height: 100%;
+    object-fit: cover;
     box-shadow: 3px 3px 3px #111;
     -moz-box-shadow: 3px 3px 3px #111;
     box-shadow: 3px 3px 3px #111;
@@ -52,7 +55,9 @@
     }
   }
   @media (max-width: 30rem) {
+    min-height: auto;
     height: 10rem;
+    margin-bottom: 1rem;
   }
   @media (min-width: 150rem) {
     height: 20rem;
