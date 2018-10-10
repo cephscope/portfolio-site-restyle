@@ -24,7 +24,6 @@ const Welcome = () => {
         </div>
       </section>
       <Projects />
-      <WorkPage />
     </div>
   );
 }
